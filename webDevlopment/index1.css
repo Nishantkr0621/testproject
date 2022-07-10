@@ -1,0 +1,147 @@
+ul{
+  list-style-type:none; 
+   margin: 0;
+   padding: 0;
+  overflow: hidden;  
+}
+a:link,a:visited{
+    display: block;
+    front-weight:bold;
+    color: rgb(135, 161, 186);
+    width: 120px;
+    text-align: center;
+    padding: 4px;
+    text-transform: uppercase;
+    
+}
+a:hover,a:active{
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li{
+    float: left;
+}
+
+body{
+    background-color:azure;
+    background-image: url(image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.box{
+    text-align: center;
+}
+h1{
+    color: red;
+}
+h3{
+    color: whitesmoke;
+}
+button{
+    color:red;
+}
+button:hover{
+    background-color: aqua;
+}
+.mid,.mid2,.mid3{
+    text-align: center;
+    color: aqua;
+}
+.tank1{
+    position: relative;
+    width: 1000px; 
+    height: 350px;
+    margin: 100px auto;
+    display: flex;
+    background-color: blueviolet;
+     }
+
+
+.div_1{
+  position: relative;
+  width: calc(350px - 30px);
+  height: calc(350px - 30px);
+  background-color: rgb(141, 141, 229);
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden; 
+  border-radius: 10px;
+  text-align: center;
+  
+
+}
+
+.div_2{
+    position: relative;
+    width: calc(350px - 30px);
+    height: calc(350px - 30px);
+    background-color: rgb(141, 141, 229); 
+    float: middle;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden; 
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+.div_3{
+    position: relative;
+    width: calc(350px - 30px);
+    height: calc(350px - 30px);
+    background-color: rgb(141, 141, 229); 
+    float: right;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden; 
+    border-radius: 10px;
+    text-align: center;
+  }
+  .zero{
+    height: 52px;
+    width: 160px;
+    background-color: aqua;
+    border-radius: 4px;
+    text-align: center;
+    
+  }
+.div_4{
+    position: relative;
+    width: 1000px; 
+    height: 350px;
+    background-color: rgb(141, 141, 229);
+    float: none;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 1opx;
+    margin: 100px auto;
+    display: flex;
+    text-align: left;
+    ;
+}
+p{
+    text-align:left;
+}
+.div_5{
+    display: flex;
+    flex-direction: row;
+}
+
+.div_6{
+    display:flex;
+    position: relative;
+     height: 50px;
+     width: 50px;
+     margin: 20px ;
+     padding: 5px ;
+     grid-row:auto;
+     border-radius: 90%;
+     align-items: center;
+     margin-left: 600px;
+     margin-right: 600px;
+ }
+
+
+
